@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery Template</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <div id="container">
+        <nav id="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="logo">
+                <h1>jQuery</h1>
+            </div>
+            <div class="items">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Team</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact</a></li>
+                <li><button id="login">Log In</button></li>
+                <li><button id="signup">Sign Up</button></li>
+                <div class="closeMenu"><i class="fas fa-times"></i></div>
+            </div>
+            <div class="openMenu"><i class="fas fa-bars"></i></div>
+        </nav>
+
+        <section id="section-1">
+            <div class="content">
+                <h1>Wellcome to jQuery Webiste</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ea nulla soluta et odio architecto
+                    eveniet velit porro placeat ad.</p>
+                <button id="clickhere">Click Here</button>
+            </div>
+        </section>
+
+
+        <!-- Log In Modal -->
+        <div id="modal">
+            <h3>Log In</h3>
+            <div class="e_inp">
+                <input type="email" placeholder="Email" id="email_1">
+            </div>
+            <div class="p_inp">
+                <input type="password" placeholder="Password" id="req_1">
+            </div>
+            <div class="btns">
+                <button id="send">Log In</button>
+                <button id="close">Close</button>
+            </div>
+        </div>
+
+        <!-- Sign Up Modal -->
+        <div id="modal-1">
+            <h3>Sign Up</h3>
+            <div class="u_inp">
+                <input type="text" placeholder="Username" id="username_1">
+            </div>
+            <div class="e_inp">
+                <input type="email" placeholder="Email" id="email_1">
+            </div>
+            <div class="p_inp">
+                <input type="password" placeholder="Password" id="req_1">
+            </div>
+            <div class="c_inp">
+                    <input type="password" placeholder=" Confirm Password" id="c_req_1">
+                </div>
+            <div class="btns">
+                <button id="send-1">Sign Up</button>
+                <button id="close-1">Close</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="jquery-3.6.0.min.js"></script>
+<script src="jquery.js"></script>
+
+</html>
